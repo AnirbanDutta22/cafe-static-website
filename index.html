@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>SMS</title>
+</head>
+
+<body>
+    <!-- header starts here -->
+    <header id="header">
+        <nav class="navigation">
+            <a href="#">
+                <img src="images\coffeeLogo.png" alt="">
+            </a>
+            <ul id="navMenu">
+                <li><a href="#homeSection" id="active">home</a></li>
+                <li><a href="#aboutSection">about us</a></li>
+                <li><a href="#menuSection">menu</a></li>
+                <li><a href="#gallerySection">gallery</a></li>
+                <li><a href="#reviewSection">reviews</a></li>
+                <li><a href="#blogsSection">blogs</a></li>
+                <li><a href="#contactSection">contact</a></li>
+            </ul>
+            <div class="icons">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="signup">
+                <a href="#">sign up</a>
+            </div>
+        </nav>
+        <div class="searchArea">
+            <input type="search" name="" placeholder="Search Your Taste" id="search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div id="toggleBtn">
+            <i class="fas fa-bars" onclick="openToggle()"></i>
+        </div>
+    </header>
+    <!-- header ends here -->
+
+
+    <!-- homeSection starts here -->
+    <section id="homeSection">
+        <div class="headings">
+            <h1>taste the delicious today <br> taste the best</h1>
+            <p>just send your lips to SMS. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, delectus.
+                Unde dignissimos tempore molestias dicta consectetur quos maiores consequatur, deserunt alias qui
+                doloribus corrupti aspernatur</p>
+            <div class="exploreBtn">
+                <a href="#">Explore</a>
+            </div>
+        </div>
+    </section>
+    <!-- homeSection ends here -->
+
+
+    <!-- aboutSection starts here -->
+    <section id="aboutSection">
+        <h1>about <span>us</span></h1>
+        <div class="aboutDetails">
+            <img src="images\coffeeShop.jpg" alt="">
+            <div class="aboutPara">
+                <h2>what makes us special</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aspernatur sunt, ab consequatur
+                    expedita enim excepturi quam laboriosam, natus, officiis vero fugiat repudiandae temporibus quae
+                    quis. Quidem, error, </p>
+                <div class="aboutBtn">
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- aboutSection ends here -->
+
+
+    <!-- menuSection starts here -->
+    <section id="menuSection">
+        <h1>our <span>menu</span></h1>
+        <div class="menuGrid">
+            <div class="menu1 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeImg.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Dalgona Coffee</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu2 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu2.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Espresso</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu3 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu3.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Cappuccino</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu4 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu4.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Americano</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu5 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu5.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Machhiano</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu6 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu6.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Latte</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu7 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu7.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Mochha</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu8 menu bgSetting">
+                <div class="menucart">
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="menuImg">
+                    <img src="images/coffeeMenu8.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="menuTitle">
+                    <h2>Pure Black Coffee</h2>
+                </div>
+                <div class="priceAndMore">
+                    <h4>$50.3</h4>
+                    <p id="strike">$80</p>
+                    <a href="#">More On This</a>
+                </div>
+            </div>
+            <div class="menu8 more bgSetting">
+                <a href="#">taste more &#9755;</a>
+            </div>
+        </div>
+    </section>
+    <!-- menuSection ends here -->
+
+
+    <!-- gallerySection starts here -->
+    <section id="gallerySection">
+        <h1>our <span>gallery</span></h1>
+        <div class="galleryGrid">
+            <div class="gallery1 galleryItems">
+                <div class="layer">
+                    <h3>upload your captures here</h3>
+                </div>
+            </div>
+            <div class="gallery2 galleryItems">
+                <div class="layer">
+                    <h3>upload your captures here</h3>
+                </div>
+            </div>
+            <div class="gallery3 galleryItems">
+                <div class="layer">
+                    <h3>upload your captures here</h3>
+                </div>
+            </div>
+            <div class="gallery4 galleryItems">
+                <div class="layer">
+                    <h3>upload your captures here</h3>
+                </div>
+            </div>
+            <div class="gallery5 galleryItems">
+                <div class="layer">
+                    <h3>upload your captures here</h3>
+                </div>
+            </div>
+            <div class="gallery9 more">
+                <a href="#">more uploads &#9755;</a>
+            </div>
+        </div>
+    </section>
+    <!-- gallerySection ends here -->
+
+
+    <!--offer section starts here  -->
+    <section id="offerSection">
+        <div class="offerDiv">
+            <div class="offerHeadings offerItems">
+                <h1>book a table <span>now ! </span></h1> <br>
+                <h4>and get chance to <span>win exciting prizes</span></h4>
+            </div>
+            <h1 id="intervalText" class="offerItems"></h1>
+            <div class="offerBtn offerItems">
+                <a href="#">Book Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- offer section ends here -->
+
+
+    <!-- review section starts here -->
+    <section id="reviewSection">
+        <h1>customers' <span>review</span></h1>
+        <div class="reviewDiv">
+            <div class="reviews">
+                <img src="images\man.jpg" alt="">
+                <span><i class="fas fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam, atque autem voluptatem, voluptas, ad error!
+                    Dolor doloribus consequuntur animi temporibus possimus odio illum a sequi, rerum quia ea, nulla
+                    tempora in excepturi accusamus!</p><span><i class="fas fa-quote-right"></i></span>
+                <p>- A Das</p>
+            </div>
+            <div class="reviews">
+                <img src="images\man.jpg" alt="">
+                <span><i class="fas fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam, atque autem voluptatem, voluptas, ad error!
+                    Dolor doloribus consequuntur animi temporibus possimus odio illum a sequi, rerum quia ea, nulla
+                    tempora in excepturi accusamus!</p><span><i class="fas fa-quote-right"></i></span>
+                <p>- A Das</p>
+            </div>
+            <div class="reviews">
+                <img src="images\man.jpg" alt="">
+                <span><i class="fas fa-quote-left"></i></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam, atque autem voluptatem, voluptas, ad error!
+                    Dolor doloribus consequuntur animi temporibus possimus odio illum a sequi, rerum quia ea, nulla
+                    tempora in excepturi accusamus!</p><span><i class="fas fa-quote-right"></i></span>
+                <p>- A Das</p>
+            </div>
+        </div>
+    </section>
+    <!-- review section starts here -->
+
+
+    <!-- blogs section starts here -->
+    <section id="blogsSection">
+        <h1>our <span>blogs</span></h1>
+        <div class="blogsDiv">
+            <div class="blogs">
+                <img src="images\blogsImg.jpg" alt="">
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam...</p>
+                <div class="blogsBtn">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blogs">
+                <img src="images\blogsImg.jpg" alt="">
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam...</p>
+                <div class="blogsBtn">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blogs">
+                <img src="images\blogsImg.jpg" alt="">
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum
+                    dolores earum officiis laudantium eveniet quisquam...</p>
+                <div class="blogsBtn">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section ends here -->
+
+
+    <!-- contactSection starts here -->
+    <section id="contactSection">
+        <h1>contact <span>us</span></h1>
+        <div class="contactDiv">
+            <div class="mapDiv contactDivItems">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7135.82304640669!2d89.00237869275766!3d26.587214310696353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e39a10de403a63%3A0x22beaed279614a16!2sState%20Bank%20of%20India%20-%20Dhupguri%20Branch!5e0!3m2!1sen!2sin!4v1635408218594!5m2!1sen!2sin"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contactDetails">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <h2>contact details</h2><br>
+                    <p>phone : 1800-234-5677</p>
+                    <p>email : sms123@gmail.com</p>
+                    <p>address : dhupguri,opposite of state bank of india,Jalpaiguri,735210</p><br><br>
+                    <h3>opening times</h3><br>
+                    <p>monday to saturday : 11am to 11pm</p>
+                    <p>sunday : 1pm to 11pm</p>
+                </div>
+            </div>
+            <div class="contactForm contactDivItems">
+                <i class="fas fa-sms"></i>
+                <form action="/action.php">
+                    <label for="">*email address</label><br>
+                    <input type="email" placeholder="Your Email Address"><br><br>
+                    <label for="">*your name</label><br>
+                    <input type="text" placeholder="Your Name"><br><br>
+                    <label for="">*your query</label><br>
+                    <textarea name="comment" id="commentSec" cols="30" rows="10"
+                        placeholder="Add Your Comment Here..."></textarea><br>
+                    <input type="submit" value="Submit" id="submitInput">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contactSection ends here -->
+
+
+    <!-- footer starts Here -->
+    <footer id="footerSec">
+        <div class="footerDiv">
+            <div class="partners">
+                <h1>our partners</h1>
+                <img src="images\coffeeBrand1.png" alt="">
+                <img src="images\coffeeBrand1.png" alt="">
+                <img src="images\coffeeBrand1.png" alt="">
+                <img src="images\coffeeBrand1.png" alt="">
+            </div>
+            <div class="footerMain">
+                <div class="footerItems">
+                    <h4>our shop</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our menu</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footerItems">
+                    <h4>contact</h4>
+                    <p>phone : 1800-234-5677</p>
+                    <p>email : sms123@gmail.com</p>
+                    <p>address : dhupguri,opposite of state bank of india,Jalpaiguri,735210</p>
+                </div>
+                <div class="footerItems">
+                    <h4>our social media handles</h4><br>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; Copyright 2004 | all rights reserved
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends Here -->
+
+    
+    
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:120,
+          duration:500,
+      });
+    </script> -->
+  
+    <script>
+
+        // media query toggle system
+        function openToggle() {
+            if (document.querySelector('#navMenu').style.display == "none") {
+                document.querySelector('#navMenu').style.display = "block";
+            }
+            else {
+                document.querySelector('#navMenu').style.display = "none";
+            }
+        }
+        // media query toggle system
+
+
+        // time counter system
+        var dest = new Date("nov 14, 2021 10:00:00").getTime();
+        var interval = setInterval(function () {
+            var today = new Date().getTime();
+            var diff = dest - today;
+            // console.log(diff);
+            var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            // console.log(days);
+            var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            // console.log(hours);
+            var mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            // console.log(mins);
+            var secs = Math.floor((diff % (1000 * 60)) / 1000);
+            // console.log(secs);
+
+            document.getElementById('intervalText').innerHTML = days + "d " + hours + "h " + mins + "m " + secs + "s ";
+        }, 1000);
+        // time counter system
+
+        //auto scroll
+        // var scrollerId;
+        // var paused = true;
+        // function startScroll() {
+        //     var id = setInterval(function () {
+        //         window.scrollBy(0, 20);
+        //     }, 100);
+        //     return id;
+        // }
+        // function stopScroll() {
+        //     clearInterval(scrollerId);
+        // }
+        // document.body.addEventListener('keypress', function (event) {
+        //     if (event.which == 13 || event.keyCode == 13) {
+        //         if (paused == true) {
+        //             scrollerId = startScroll();
+        //             paused = false;
+        //         }
+        //         else {
+        //             stopScroll();
+        //             paused = true;
+        //         }
+        //     }
+        // }, true);
+        //auto scroll
+    </script>
+</body>
+
+</html>

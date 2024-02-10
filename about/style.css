@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(20, 18, 18);
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(to top,#9c643c,transparent);
+    border-radius: 20px;
+}
+span{
+    color: #8a5530;
+}
+.heading{
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-70%,-40%);
+    text-align: center;
+}
+.polygonClass{
+    clip-path: polygon(0% 0%,0% 70%,25% 100%,100% 0%,100% 60%,25% 100%,100% 0%);
+}
+
+
+#header{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    text-transform: capitalize;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('aboutUsBg.jpg');
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0% 0%,0% 80%,25% 100%,100% 0%,100% 70%,25% 100%,100% 0%);
+    shape-outside:  polygon(0% 0%,0% 80%,25% 100%,100% 0%,100% 70%,25% 100%,100% 0%);
+}
+
+
+.navigation{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(20, 18, 18, 0.842);
+    position: fixed;
+    z-index: 2;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+.navigation a img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.navigation ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navigation ul li a{
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    color: whitesmoke;
+}
+.navigation ul li a#active{
+    color: #9c643c;
+}
+.navigation ul li a:hover{
+    color: #9c643c;
+}
+.navigation .signup{
+    padding: 10px;
+    background-color: #9c643c;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.navigation .signup a{
+    color: whitesmoke;
+}
+.navigation .signup:hover{
+    background-color: #683e20;
+}
+#toggleBtn{
+    display: none;
+}
+
+
+
+#aboutDetails{
+    position: relative;
+    background-color: transparent;
+    color: whitesmoke;
+}
+#aboutDetails .aboutDiv{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto 50px;
+}
+#aboutDetails .aboutDiv .aboutItems{
+    padding: 8px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#headerImgCont{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('aboutUsBg.jpg');
+    background-position: right;
+    background-size:  cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+}
+
+
+#chef{
+    position: relative;
+    color: whitesmoke;
+}
+.chefDiv{
+    width: 90%;
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chef .chefImgDiv{
+    flex-basis: 50%;
+    position: relative;
+}
+#chef .chefImgDiv img{
+    width: 60%;
+    margin: auto;
+    height: 450px;
+    filter: grayscale(1);
+}
+.imgSubDiv{
+    text-transform: capitalize;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-80%,-85%);
+    background-color: #8a5530;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    height: 300px;
+    box-shadow: -10px 10px 15px rgb(5, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.imgSubDiv:hover {
+    color: #8a5530;
+    background-color: rgb(214, 208, 208);
+    /* border: 4px solid #8a5530; */
+}
+.aboutChef{
+    flex-basis: 50%;
+}
+
+#founder{
+    position: relative;
+    color: whitesmoke;
+}
+#founder h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-70%,-10%);
+    text-align: center;
+    font-size: 40px;
+}
+.founderDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    margin: 150px auto 50px;
+    text-align: center;
+}
+.founderDiv .founders{
+    flex-basis: 30%;
+    padding: 10px;
+    border: 0.5px solid #8a5530;
+    transition: all 0.3s ease;
+    margin: 20px 0 0 20px;
+}
+.founderDiv #activeF{
+    background-color: #8a5530;
+}
+.founderDiv .founders:hover{
+    background-color: #8a5530;
+    border: 1px solid whitesmoke;
+}
+.founderDiv .founders img{
+    width: 70px;
+    height: 70px;
+    clip-path: circle(50%);
+}
+
+#developer{
+    position: relative;
+}
+#developer h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#developer .developerDiv img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+@media screen and (max-width:767px){
+    .chefDiv{
+        flex-direction: column;
+    }
+    .founderDiv{
+        flex-direction: column;
+        width: 70%;
+    }
+    #founder h1{
+        font-size: 30px;
+        top: 5%;
+        left: 70%;
+        transform: translate(-70%,-5%);
+    }
+}

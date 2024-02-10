@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+span{
+    color: #683d18;
+}
+.signupView{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-image: linear-gradient(#522c0b , #000000);
+}
+.fa-times{
+    font-size: 40px;
+    top: 5%;
+    right: 5%;
+    position: absolute;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.signUpForm{
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to left,transparent,rgba(245, 245, 245, 0.678),transparent) ;
+    height: 500px;
+    padding: 20px;
+}
+.signUpForm h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-size: 25px;
+    color: whitesmoke;
+}
+.inputField{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.inputField input{
+    margin-top: 30px;
+    padding: 10px;
+}
+.signupBtn2{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #683d18bd;
+}
+.signupBtn2 a{
+    color: whitesmoke;
+
+}
+p{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo2 img{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+    width: 70px;
+    height: 70px;
+}
